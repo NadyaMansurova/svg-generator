@@ -1,0 +1,63 @@
+{
+  "name": "svg-generator",
+  "version": "0.0.1",
+  "description": "Component-generator SVG-images and schemas for React-project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "BABEL_ENV=production ./node_modules/.bin/webpack --config webpack.config.production.js",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NadyaMansurova/svg-generator.git"
+  },
+  "keywords": [
+    "react",
+    "es6",
+    "babel",
+    "webpack"
+  ],
+  "author": "Nadya Mansurova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NadyaMansurova/svg-generator/issues"
+  },
+  "homepage": "https://github.com/NadyaMansurova/svg-generator",
+  "dependencies": {
+    "babel-runtime": "^6.3.19",
+    "backbone": "~1.2.1",
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.23.1",
+    "jointjs": "^0.9.10",
+    "jquery": "^2.0.3",
+    "less": "^2.3.1",
+    "less-loader": "^2.2.3",
+    "lodash": "~3.10.1",
+    "react": "^0.14.5",
+    "react-bootstrap": "^0.30.2",
+    "react-dom": "^0.14.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.21",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-react-transform": "^2.0.0-beta1",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "bootstrap-webpack": "0.0.5",
+    "eslint": "^0.21.2",
+    "eslint-plugin-react": "^2.3.0",
+    "exports-loader": "^0.6.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "imports-loader": "^0.6.5",
+    "react-transform-hmr": "^1.0.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.8.4",
+    "webpack-dev-server": "^1.8.0"
+  }
+}
