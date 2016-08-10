@@ -6,8 +6,7 @@ react.js + joint.js
 
 ## TODO
 
-`1. react+joint boilerplate` +
-
+1. react+joint boilerplate `+`
 2. example usage
 3. add common field for svg-components
 4. add lib with example (mindmap)
